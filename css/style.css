@@ -1,0 +1,153 @@
+* {
+    font-family: 'Montserrat', serif;
+}
+
+/*navbar style*/
+.navbar, footer {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.742);
+}
+
+.nav-link:hover {
+    color: #fff;
+    background-image: linear-gradient(358.3deg, rgba(255, 82, 168, 1) 12.9%, rgba(177, 118, 240, 1) 134.3%);
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand {
+    font-family: "My Soul", cursive;
+    background-image: radial-gradient(circle farthest-corner at 50.2% 50.7%, rgba(241, 168, 179, 1) 0%, rgba(254, 246, 233, 1) 90%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    font-weight: 1000;
+    cursor: default;
+}
+.animated-brand {
+    font-size: 24px;
+    transition: all 0.5s;
+}
+
+.brand-part1 {
+    word-spacing: -2px;
+    animation: fadeInLeft 2s;
+}
+
+.brand-part2 {
+    margin-left: 50px;
+    word-spacing: -2px;
+    animation: fadeInRight 2s;
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+/* btn-home style*/
+.btn-home {
+    background-image: linear-gradient(to right, #FBD3E9 0%, #BB377D 51%, #FBD3E9 100%);
+    padding: 10px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 150%;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+.btn-home:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+.btn-home a {
+    text-decoration: none;
+    color: #fff;
+}
+/* about us style*/
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+.glassy-card {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.carousel-indicators button {
+    width: 15px;
+    height: 15px;
+    border-radius: 30%;
+    background-color: #fff;
+}
+.carousel-indicators .active {
+    background-color: #590202;
+}
+/* btn-contact style*/
+.btn-contact {
+    border: 5px solid;
+    border-image: linear-gradient(149.9deg, rgba(41, 151, 255, 1) 13.5%, rgba(191, 90, 242, 1) 47.6%, rgba(255, 55, 95, 1) 78.8%);
+
+    border-image-slice: 1;
+}
+.btn-contact:hover .gradient-text {
+    background-image: linear-gradient(179.7deg, rgba(249, 21, 215, 1) 1.1%, rgba(22, 0, 98, 1) 99%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+/* get involved style*/
+.glassy-card .btn {
+    transition: all 0.5s;
+}
+
+.glassy-card .btn:hover {
+    background-color: #fff;
+    transform: scale(1.1) rotate(2deg);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+.btn-get a {
+    text-decoration: none;
+    color: #fff;
+}
+/* donate and volunteer page style */
+.form-control::placeholder {
+    color: #0c0c0c48;
+    opacity: 0.7;
+}
+.btn-outline-light {
+    transition: all 0.5s;
+}
+.btn-outline-light:hover {
+    background-color: #fff;
+    color: #333;
+    transform: scale(1.1);
+}
+.btn-outline-light:hover .text-form {
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
